@@ -63,6 +63,42 @@ body {
     background-color: coral;
     height: 400px;
     display: flex;
+    flex-direction: column;
+}
+
+.showcase-heading-container {
+    display: flex;
+    height: 100px;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-heading {
+}
+
+.counselor-showcase {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.counselor {
+    border: 4px solid green;
+    height: 210px;
+    width: 150px;
+}
+
+.counselor-image-container {
+    height: 150px;
+    background-color: pink;
+    object-fit: cover;
+}
+
+.counselor-image {
+    width: 100%;
+
 }
 
 #quote-box {
@@ -70,7 +106,7 @@ body {
     background-color: red;
 }
 
-#signup-box {
+#sign-up-box {
     height: 400px;
     background-color: gray;
 }
