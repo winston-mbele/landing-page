@@ -7,27 +7,24 @@ body {
 .header-box {
     display: flex;
     height: 400px;
-    background-color: black;
+    background-color: #1F2937;
     flex-direction: column;
     align-items: center;
 }
 
 .header {
     display: flex;
-    background-color: blue;
     height: 100px;
     margin-left: 80px;
     margin-right: 80px;
 }
 
 .header-logo {
-    width: 60px;
-    height: 30px;
     object-fit: contain;
 }
 
 .logo-image {
-    width: 50px;
+    width: 75px;
 }
 
 #header-links {
@@ -38,37 +35,56 @@ body {
     gap: 15px;
 }
 
+#header-links a {
+    color: white;
+    text-decoration: none;
+}
+
 .intro-container {
     display: flex;
     height: 300px;
     max-width: 1073px;
-    background-color: aqua;
 }
 
 #intro-text-container {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .intro-heading {
-    width: 250px;
+    width: 400px;
+    font-size: xx-large;
+}
+
+.intro-heading h1 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: white;
 }
 
 .intro-text {
 }
 
+.intro-text p {
+    margin: 0 ;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sign-up-button {
+}
+
 
 #intro-image-container {
-    width: 400px ;
-    flex: 1;
-    object-fit: contain;
+    margin-left: 20px;
 }
 
 .intro-image {
-    width: 100%;
+    height: 260px;
 }
 
 #counselor-showcase-container {
-    background-color: coral;
+    padding-top: 10px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -77,7 +93,6 @@ body {
 .showcase-heading-container {
     display: flex;
     height: 100px;
-    background-color: purple;
     justify-content: center;
     align-items: center;
 }
@@ -89,30 +104,27 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-
 }
 
 .counselor {
-    border: 4px solid green;
     height: 210px;
     width: 150px;
 }
 
 .counselor-image-container {
     height: 150px;
-    background-color: pink;
     object-fit: cover;
 }
 
 .counselor-image {
     width: 100%;
-
+    border-radius: 10px;
 }
 
 #quote-box {
     display: flex;
     height: 400px;
-    background-color: red;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
 
@@ -124,11 +136,9 @@ body {
     flex-direction: column;
     height: 160px;
     width: 600px;
-    background-color: maroon;
 }
 
 .quote {
-    background-color: darkorange;
     height: 160px;
 
 }
@@ -140,7 +150,6 @@ body {
 
 .author {
     text-align: end;
-    background-color: purple;
 }
 
 .author-name {
@@ -150,7 +159,6 @@ body {
 #sign-up-box {
     display: flex;
     height: 250px;
-    background-color: gray;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
@@ -160,7 +168,8 @@ body {
     display: flex;
     width: 700px;
     height: 100px;
-    background-color: skyblue;
+    border-radius: 4px;
+    background-color: #1259ca;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -168,7 +177,6 @@ body {
 
 .sign-up-text {
     flex: 2;
-    background-color: yellowgreen;
     line-height: 15px;
 }
 
@@ -178,17 +186,17 @@ body {
 }
 
 .sign-up-text-2 {
+    color: white;
 }
 
 .lower-sign-up-button-container {
     display: flex;
     flex: 1 1 auto;
-    background-color: purple;
     align-items: center;
     justify-content: flex-end;
 }
 
-.sign-up-button {
+.sign-up-button-2 {
     font-size: larger;
     width: 90px;
     height: 30px;
@@ -198,7 +206,7 @@ body {
 
 footer {
     display: flex;
-    background-color: black;
+    background-color: #1F2937;
     justify-content: center;
     align-items: center;
 }
