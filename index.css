@@ -1,13 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    padding-right: 80px;
     padding-bottom: 60px;
 }
+
 .header-box {
     display: flex;
-    width: 100%;
     height: 400px;
     background-color: black;
     flex-direction: column;
@@ -17,8 +15,9 @@ body {
 .header {
     display: flex;
     background-color: blue;
-    width: 100%;
     height: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .header-logo {
@@ -41,22 +40,31 @@ body {
 
 .intro-container {
     display: flex;
-    height: 400px;
+    height: 300px;
+    max-width: 1073px;
     background-color: aqua;
-    gap: 5px;
 }
 
 #intro-text-container {
     flex: 1;
 }
 
+.intro-heading {
+    width: 250px;
+}
+
+.intro-text {
+}
+
+
 #intro-image-container {
+    width: 400px ;
     flex: 1;
     object-fit: contain;
 }
 
 .intro-image {
-    width: 100px;
+    width: 100%;
 }
 
 #counselor-showcase-container {
@@ -102,12 +110,99 @@ body {
 }
 
 #quote-box {
+    display: flex;
     height: 400px;
     background-color: red;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 600px;
+    background-color: maroon;
+}
+
+.quote {
+    background-color: darkorange;
+    height: 160px;
+
+}
+
+.quote-text {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.author {
+    text-align: end;
+    background-color: purple;
+}
+
+.author-name {
+    font-size: large;
 }
 
 #sign-up-box {
-    height: 400px;
+    display: flex;
+    height: 250px;
     background-color: gray;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
 }
 
+.sign-up-container {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background-color: skyblue;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sign-up-text {
+    flex: 2;
+    background-color: yellowgreen;
+    line-height: 15px;
+}
+
+.sign-up-text-1 {
+    font-size: larger;
+    color: white;
+}
+
+.sign-up-text-2 {
+}
+
+.lower-sign-up-button-container {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: purple;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sign-up-button {
+    font-size: larger;
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+} 
